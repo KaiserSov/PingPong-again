@@ -1,80 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&family=Special+Elite&family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&family=Special+Elite&family=ZCOOL+QingKe+HuangYou&display=swap");
 
 body {
-    background: rgb(233,233,233);
-    background: radial-gradient(circle, rgb(202, 196, 208) 0%, rgb(9, 3, 38) 100%);
-    overflow: hidden;
+  background: rgb(233, 233, 233);
+  background: radial-gradient(
+    circle,
+    rgb(202, 196, 208) 0%,
+    rgb(9, 3, 38) 100%
+  );
+  overflow: hidden;
 }
 
 .bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    right: -50%;
-    bottom: -50%;
-    width: 200%;
-    height: 200vh;
-    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
-    background-repeat: repeat;
-    animation: bg-animation .2s infinite;
-    opacity: .9;
-    visibility: visible;
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent
+    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation 0.2s infinite;
+  opacity: 0.9;
+  visibility: visible;
 }
 
 @keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5%,-5%) }
-    20% { transform: translate(-10%,5%) }
-    30% { transform: translate(5%,-10%) }
-    40% { transform: translate(-5%,15%) }
-    50% { transform: translate(-10%,5%) }
-    60% { transform: translate(15%,0) }
-    70% { transform: translate(0,10%) }
-    80% { transform: translate(-15%,0) }
-    90% { transform: translate(10%,5%) }
-    100% { transform: translate(5%,0) }
+  0% {
+    transform: translate(0, 0);
+  }
+
+  10% {
+    transform: translate(-5%, -5%);
+  }
+
+  20% {
+    transform: translate(-10%, 5%);
+  }
+
+  30% {
+    transform: translate(5%, -10%);
+  }
+
+  40% {
+    transform: translate(-5%, 15%);
+  }
+
+  50% {
+    transform: translate(-10%, 5%);
+  }
+
+  60% {
+    transform: translate(15%, 0);
+  }
+
+  70% {
+    transform: translate(0, 10%);
+  }
+
+  80% {
+    transform: translate(-15%, 0);
+  }
+
+  90% {
+    transform: translate(10%, 5%);
+  }
+
+  100% {
+    transform: translate(5%, 0);
+  }
 }
 
-.titulo{
-    font-family: 'Special Elite', cursive;
-    font-size: 4rem;
-    text-align: center;
-    color: rgb(46, 6, 82);
+.titulo {
+  font-family: "Special Elite", cursive;
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(46, 6, 82);
 }
 
-.content-box{
-    display:flex;
-    align-items: center;
-    justify-content:center;
+.content-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card__1{
-    padding-top: 1rem;
-    background: radial-gradient(circle, rgb(202, 196, 208) 0%, rgb(9, 3, 38) 100%);
-    width:400px;
-    border: 1px solid rgb(12, 0, 23);
-    box-shadow: 2px 2px 8px 4px #121212d1;
-    border-radius:1rem;
-    font-family: 'Special Elite', cursive;
-    text-align: center;
+.card__1 {
+  padding-top: 1rem;
+  background: radial-gradient(
+    circle,
+    rgb(202, 196, 208) 0%,
+    rgb(9, 3, 38) 100%
+  );
+  width: 400px;
+  border: 1px solid rgb(12, 0, 23);
+  box-shadow: 2px 2px 8px 4px #121212d1;
+  border-radius: 1rem;
+  font-family: "Special Elite", cursive;
+  text-align: center;
 }
 
-.container{
-    display:flex;
-    align-items: center;
-    justify-content:center;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 img {
-    width: 26rem;
-    padding-right: 1.5rem;
+  width: 26rem;
+  padding-right: 1.5rem;
 }
 
 #canvas {
-    border: 1.5px solid rgb(0, 0, 0);
-    border-radius: 1rem;
-    background-image:url("https://cutt.ly/qGvmOds");
-    box-shadow: 2px 2px 8px 4px #000000;
+  border: 1.5px solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  background-image: url("https://cutt.ly/qGvmOds");
+  box-shadow: 2px 2px 8px 4px #000000;
 }
-
-
