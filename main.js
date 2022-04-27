@@ -6,7 +6,7 @@ this.height = height;
 this.playing = false;
 this.game_over = false;
 this.bars = [];
-this.ball = null;
+this.ball = null; 
 this.playing = false;
 }
 
@@ -182,12 +182,12 @@ switch(element.kind){
 }
 })();
 
-var board = new Board(800,400);
-var bar = new Bar(20,100,40,100,board);
-var bar_2 = new Bar(735,100,40,100,board);
+var board = new Board(699,435);
+var bar = new Bar(20,169,40,100,board);
+var bar_2 = new Bar(635,169,40,100,board);
 var canvas = document.getElementById('canvas');
 var board_view = new BoardView(canvas,board);
-var ball = new Ball(350,100,10,board);
+var ball = new Ball(349,216,8,board);
 
 
 //esto es para manejar las bars (ubicación)  
